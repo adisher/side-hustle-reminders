@@ -1,0 +1,25 @@
+name: Hourly reminder
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call reminder endpoint
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          REMIND_URL: ${{ secrets.REMIND_URL }}
+        run: |
+          code=$(curl -sS -o body.txt -w "%{http_code}" \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            "$REMIND_URL")
+          echo "HTTP $code"
+          cat body.txt; echo
+          if [ "$code" != "200" ]; then
+            echo "::error::Reminder endpoint returned $code"
+            exit 1
+          fi

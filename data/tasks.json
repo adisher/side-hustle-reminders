@@ -1,0 +1,53 @@
+{
+  "timezone_offset_hours": 5,
+  "reminder_hours": [
+    { "hour": 8,  "label": "Today's tasks" },
+    { "hour": 14, "label": "Midday check" },
+    { "hour": 20, "label": "Sit down now" },
+    { "hour": 23, "label": "Last call — check in and log" }
+  ],
+  "days": {
+    "2026-09-25": {
+      "day": 1, "week": 1, "phase": "Foundations",
+      "physical": "30 min cardio (run/walk or steps).",
+      "mindset": "Write your current daily routine vs your ideal daily routine.",
+      "business": "Review all business models available to you, take notes."
+    },
+    "2026-09-26": {
+      "day": 2, "week": 1, "phase": "Foundations",
+      "physical": "Bodyweight circuit, 3 rounds: 10 push ups, 10 squats, 10 crunches.",
+      "mindset": "Full room / workspace clean-up.",
+      "business": "Pick ONE business model and commit to it."
+    },
+    "2026-09-27": {
+      "day": 3, "week": 1, "phase": "Foundations",
+      "physical": "30 min walk in nature / touch grass.",
+      "mindset": "Set up a workspace that helps you focus and feels enjoyable (lighting, candle, plants, whatever works) and post a photo of it.",
+      "business": "Identify the strengths and weaknesses of that model for you."
+    },
+    "2026-09-28": {
+      "day": 4, "week": 1, "phase": "Foundations",
+      "physical": "30 min full-body stretch or mobility.",
+      "mindset": "Set a fixed sleep and wake time, and hold it from tonight.",
+      "business": "Work out how many modules your program has and roughly how long it'll take. Build a realistic schedule to finish it within the next 7 to 10 days."
+    },
+    "2026-09-29": {
+      "day": 5, "week": 1, "phase": "Foundations",
+      "physical": "30 min cardio (pick any cardio option).",
+      "mindset": "1 hour no devices before bed.",
+      "business": "Watch the program (follow your schedule)."
+    },
+    "2026-09-30": {
+      "day": 6, "week": 1, "phase": "Foundations",
+      "physical": "Bodyweight circuit, 3 rounds: 10 lunges each leg, 10 russian twists, 30 sec plank.",
+      "mindset": "10 min meditation.",
+      "business": "Watch the program (follow your schedule)."
+    },
+    "2026-10-01": {
+      "day": 7, "week": 1, "phase": "Foundations",
+      "physical": "Active recovery: 30 min hike or long walk.",
+      "mindset": "Gratitude journal: write 5 things you're grateful for, then reflect on week 1 and how it went.",
+      "business": "Watch the program + write a summary of what you've learned so far."
+    }
+  }
+}
